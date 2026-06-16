@@ -115,6 +115,10 @@ The platform allows customers to browse fashion products, filter categories, and
 
 <img src="Images/Contact prjt.png" width="100%">
 
+## 🛒 Cart Page
+
+<img src="images/Cart prjt.png" width="100%">
+
 ---
 
 # ⚙️ Installation Guide
