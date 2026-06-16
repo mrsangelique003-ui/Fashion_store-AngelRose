@@ -83,7 +83,7 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 🏠 Home Page
 
-<img src="Images/home-page prjt.png" width="100%">
+<img src="Images/Home page prjt.png" width="100%">
 
 ---
 
