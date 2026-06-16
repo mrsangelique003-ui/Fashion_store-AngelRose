@@ -83,37 +83,37 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 🏠 Home Page
 
-<img src="Images/home-page-prjt.png" width="100%">
+<img src="Images/home-page prjt.png" width="100%">
 
 ---
 
 ## 🛍️ Product Collection
 
-<img src="Images/product-prjt.png" width="100%">
+<img src="Images/product prjt.png" width="100%">
 
 ---
 
 ## 📂 Shop By Category
 
-<img src="Images/categories-prjt.png" width="100%">
+<img src="Images/categories prjt.png" width="100%">
 
 ---
 
 ## 👗 About Us Section
 
-<img src="Images/about-prjt.png" width="100%">
+<img src="Images/about prjt.png" width="100%">
 
 ---
 
 ## 📊 Admin Dashboard
 
-<img src="images/admin-prjt.png" width="100%">
+<img src="images/admin prjt.png" width="100%">
 
 ---
 
 ## 📞 Contact Footer
 
-<img src="Images/contact-prjt.png" width="100%">
+<img src="Images/contact prjt.png" width="100%">
 
 ---
 
