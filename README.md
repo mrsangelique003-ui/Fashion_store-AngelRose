@@ -107,13 +107,13 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 📊 Admin Dashboard
 
-<img src="images/admin prjt.png" width="100%">
+<img src="images/Admin prjt.png" width="100%">
 
 ---
 
 ## 📞 Contact Footer
 
-<img src="Images/contact prjt.png" width="100%">
+<img src="Images/Contact prjt.png" width="100%">
 
 ---
 
