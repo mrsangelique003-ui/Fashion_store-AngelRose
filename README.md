@@ -1,129 +1,121 @@
-
-# 🌸 AngelRose Fashion Store
-
-<div align="center">
-
-### Elegant Fashion E-Commerce Website & Admin Dashboard
-
-A modern responsive online fashion store with an integrated admin analytics dashboard designed for **AngelRose Boutique**.
-
-<img src="images/home-page-prjt.jpg" alt="AngelRose Banner" width="100%">
-
-</div>
+# 🌸 BellaRose Fashion Store
+### EWA408510 – E-Commerce & Web Application Project
+**University of Lay Adventists of Kigali (UNILAK)**  
+Academic Year 2025–2026
 
 ---
 
-# 📖 About The Project
+## 📁 Project Structure
 
-**AngelRose Fashion Store** is a full-stack e-commerce web application developed as a university web development project.
-
-The platform allows customers to browse fashion products, filter categories, and manage shopping selections, while administrators can monitor customer orders, products, and revenue analytics through a centralized dashboard.
-
----
-
-# 👩‍🎓 Student Information
-
-| Information | Details |
-|---|---|
-| **Course** | E-commerce and Web Application(EWA408510) |
-| **Institution** | University of Lay Adventists of Kigali (UNILAK) |
-| **Academic Year** | 2026 |
-
----
-
-# ✨ Features
-
-## 🛍️ Customer Features
-
-- Responsive fashion storefront
-- Product category filtering
-- Shopping cart interface
-- Mobile-friendly design
-- Smooth navigation experience
-- Interactive product cards
+```
+fashion_store/
+├── index.html              ← Main homepage
+├── css/
+│   └── style.css           ← All styles (pink theme)
+├── js/
+│   └── main.js             ← Cart, products, checkout logic
+├── php/
+│   ├── config.php          ← Database connection settings
+│   ├── products.php        ← Fetch products API
+│   ├── orders.php          ← Place orders API
+│   └── admin.php           ← Admin panel API
+├── admin/
+│   └── index.html          ← Admin panel
+├── database.sql            ← Run this in MySQL Workbench
+├── Dockerfile              ← Docker container setup
+├── docker-compose.yml      ← Run app + database together
+└── .github/
+    └── workflows/
+        └── deploy.yml      ← CI/CD pipeline
+```
 
 ---
 
-## 📊 Admin Dashboard Features
+## 🚀 HOW TO RUN THE PROJECT
 
-- Total products analytics
-- Customer order management
-- Revenue tracking (RWF)
-- Order status monitoring
-- Database-driven statistics
+### Option 1: XAMPP (Easiest for beginners)
 
----
-
-## 🗄️ Backend Features
-
-- PHP server-side scripting
-- MySQL relational database
-- Dynamic order flow management
-- PDO database integration
-- Structured database relationships
+1. **Download XAMPP**: https://www.apachefriends.org/
+2. **Copy project folder** into `C:\xampp\htdocs\fashion_store\`
+3. **Start Apache and MySQL** in XAMPP Control Panel
+4. **Set up the database**:
+   - Open **MySQL Workbench** or go to `http://localhost/phpmyadmin`
+   - Create a new database called `fashion_store`
+   - Open `database.sql` and run all the SQL code
+5. **Configure connection**: Open `php/config.php` and set your MySQL password
+6. **Open the store**: Go to `http://localhost/fashion_store/`
 
 ---
 
-# 🖥️ Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website Structure |
-| CSS3 | Styling & Responsive Design |
-| JavaScript | Interactive Features |
-| PHP | Backend Development |
-| MySQL | Database Management |
-| Google Fonts (Poppins) | Typography |
-| XAMPP | Local Development |
-| VS Code | Code Editor |
-
----
-
-# 📸 Project Screenshots
-
-## 🏠 Home Page
-
-<img src="Images/Home page prjt.png" width="100%">
-
----
-
-## 🛍️ Product Collection
-
-<img src="Images/product prjt.png" width="100%">
-
----
-
-## 📂 Shop By Category
-
-<img src="Images/Categories prjt.png" width="100%">
-
----
-
-## 👗 About Us Section
-
-<img src="Images/About prjt.png" width="100%">
-
----
-
-## 📊 Admin Dashboard
-
-<img src="images/Admin prjt.png" width="100%">
-
----
-
-## 📞 Contact Footer
-
-<img src="Images/Contact prjt.png" width="100%">
-
-## 🛒 Cart Page
-
-<img src="Images/Cart prjt.png" width="100%">
-
----
-
-# ⚙️ Installation Guide
-
-## 1️⃣ Clone The Repository
+### Option 2: Docker (One command!)
 
 ```bash
-git clone https://github.com/yourusername/angelrose-fashion-store.git
+# Make sure Docker Desktop is installed, then run:
+docker-compose up
+
+# Open browser: http://localhost:8080
+```
+
+---
+
+## 🗄️ DATABASE SETUP (MySQL Workbench)
+
+1. Open **MySQL Workbench**
+2. Connect to your local MySQL server
+3. Click **File → Open SQL Script**
+4. Select `database.sql`
+5. Click the ⚡ (Execute) button
+6. Done! Tables and sample products are created.
+
+---
+
+## 🔧 CONFIGURATION
+
+Open `php/config.php` and update:
+```php
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');       // your MySQL username
+define('DB_PASS', '');           // your MySQL password (empty for XAMPP default)
+define('DB_NAME', 'fashion_store');
+```
+
+---
+
+## ✨ FEATURES
+
+- 🛍️ Product listing with categories
+- 🔍 Search functionality  
+- 🛒 Shopping cart (add, remove, update quantities)
+- 💳 Checkout with customer details
+- 📦 Order confirmation
+- 🗄️ MySQL database for products, customers, orders
+- 📱 Mobile-responsive design
+- 🖥️ Admin panel (add/delete products, view orders)
+- 🐳 Docker containerization
+- ⚙️ CI/CD with GitHub Actions
+
+---
+
+## 📦 DEPLOYMENT OPTIONS
+
+| Platform | Free | PHP Support | MySQL |
+|----------|------|-------------|-------|
+| Railway  | ✅   | ✅          | ✅    |
+| Render   | ✅   | ✅          | ✅    |
+| InfinityFree | ✅ | ✅        | ✅    |
+| 000webhost | ✅  | ✅         | ✅    |
+
+---
+
+## 🌸 Technologies Used
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6)
+- **Backend**: PHP 8.1
+- **Database**: MySQL
+- **Fonts**: Google Fonts (Playfair Display, Poppins)
+- **Container**: Docker + docker-compose
+- **CI/CD**: GitHub Actions
+
+---
+
+*Built with ❤️ for UNILAK EWA408510 Final Examination*

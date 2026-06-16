@@ -1,0 +1,41 @@
+# ============================================
+# DOCKER COMPOSE - BellaRose Fashion Store
+# Runs the web app AND MySQL database together
+# ============================================
+
+version: '3.8'
+
+services:
+
+  # ---- The Web Application (PHP + Apache) ----
+  web:
+    build: .                    # build from our Dockerfile
+    ports:
+      - "8080:80"               # visit http://localhost:8080
+    depends_on:
+      - db                      # wait for database to start first
+    environment:
+      DB_HOST: db
+      DB_USER: fashionuser
+      DB_PASS: fashionpass123
+      DB_NAME: fashion_store
+    volumes:
+      - .:/var/www/html         # sync files (for development)
+
+  # ---- The MySQL Database ----
+  db:
+    image: mysql:8.0            # use official MySQL image
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: fashion_store
+      MYSQL_USER: fashionuser
+      MYSQL_PASSWORD: fashionpass123
+    ports:
+      - "3307:3306"             # MySQL accessible on port 3307
+    volumes:
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql  # auto-run our SQL
+      - db_data:/var/lib/mysql   # keep data even if container restarts
+
+# ---- Persistent storage for database ----
+volumes:
+  db_data:
