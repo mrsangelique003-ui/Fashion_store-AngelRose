@@ -95,13 +95,13 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 📂 Shop By Category
 
-<img src="Images/categories prjt.png" width="100%">
+<img src="Images/Categories prjt.png" width="100%">
 
 ---
 
 ## 👗 About Us Section
 
-<img src="Images/about prjt.png" width="100%">
+<img src="Images/About prjt.png" width="100%">
 
 ---
 
