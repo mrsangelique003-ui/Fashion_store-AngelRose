@@ -83,13 +83,13 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 🏠 Home Page
 
-<img src="Images/home-page-prjt.jpg" width="100%">
+<img src="Images/home-page-prjt.png" width="100%">
 
 ---
 
 ## 🛍️ Product Collection
 
-<img src="Images/product-prjt.jpg" width="100%">
+<img src="Images/product-prjt.png" width="100%">
 
 ---
 
@@ -101,7 +101,7 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 👗 About Us Section
 
-<img src="Images/about-prjt.jpg" width="100%">
+<img src="Images/about-prjt.png" width="100%">
 
 ---
 
