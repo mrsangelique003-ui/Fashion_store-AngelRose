@@ -1,5 +1,4 @@
 
-:::writing{variant="document" id="64028"}
 # 🌸 AngelRose Fashion Store
 
 <div align="center">
@@ -84,25 +83,25 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 🏠 Home Page
 
-<img src="images/home-page-prjt.jpg" width="100%">
+<img src="Images/home-page-prjt.jpg" width="100%">
 
 ---
 
 ## 🛍️ Product Collection
 
-<img src="images/product-prjt.jpg" width="100%">
+<img src="Images/product-prjt.jpg" width="100%">
 
 ---
 
 ## 📂 Shop By Category
 
-<img src="images/categories-prjt.png" width="100%">
+<img src="Images/categories-prjt.png" width="100%">
 
 ---
 
 ## 👗 About Us Section
 
-<img src="images/about-prjt.jpg" width="100%">
+<img src="Images/about-prjt.jpg" width="100%">
 
 ---
 
@@ -114,7 +113,7 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 📞 Contact Footer
 
-<img src="images/contact-prjt.png" width="100%">
+<img src="Images/contact-prjt.png" width="100%">
 
 ---
 
