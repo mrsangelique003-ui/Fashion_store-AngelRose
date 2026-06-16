@@ -39,7 +39,7 @@ An elegant, modern e-commerce storefront and admin order management system desig
 ![Home page prjt.jpg](Home page prjt.jpg)
 
 ### Product Collection
-![images/product prjt.jpg](product prjt.jpg)
+[images/product prjt.jpg](product prjt)
 
 ### Shop by Category
 ![Categories prjt.png](Categories prjt.png)
