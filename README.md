@@ -117,7 +117,7 @@ The platform allows customers to browse fashion products, filter categories, and
 
 ## 🛒 Cart Page
 
-<img src="images/Cart prjt.png" width="100%">
+<img src="Images/Cart prjt.png" width="100%">
 
 ---
 
