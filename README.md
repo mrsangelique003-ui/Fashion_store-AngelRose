@@ -1,144 +1,258 @@
-````markdown
-# 🌸 AngelRose E-Commerce Fashion Store
+````md
+# 🌸 AngelRose Fashion Store
 
-An elegant and modern e-commerce storefront with an integrated admin analytics dashboard designed for **AngelRose**, a boutique fashion brand serving women in Rwanda and beyond.
+<div align="center">
 
----
+### Elegant Fashion E-Commerce Website & Admin Dashboard
 
-# 👤 Student Information
+A modern responsive online fashion store with an integrated admin analytics system designed for **AngelRose Boutique**.
 
-- **Course Assignment:** Web Development Project (EWA408510)
-- **Institution:** University of Lay Adventists of Kigali (UNILAK)
-- **Academic Year:** 2026
+<img src="images/home-page-prjt.jpg" alt="AngelRose Banner" width="100%">
 
----
-
-# 📌 Project Title
-
-## AngelRose Fashion Store & Admin Analytics Dashboard
+</div>
 
 ---
 
-# 💻 Platform Used
+# 📖 About The Project
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** PHP Server-Side Scripting
-- **Database:** MySQL Relational Database
-- **Design:** Responsive Modular Layouts with Google Fonts (Poppins)
-- **Development Environment:** XAMPP & VS Code Live Server
+**AngelRose Fashion Store** is a full-stack e-commerce web application developed as a university web development project.
+
+The platform allows customers to browse fashion products, filter categories, and manage shopping selections, while administrators can monitor products, customer orders, and revenue analytics through a centralized dashboard.
 
 ---
 
-# ✨ Features Implemented
+# 👩‍🎓 Student Information
 
-## 🛍️ Customer Storefront
-- Fully responsive fashion storefront
-- Beautiful modern UI for mobile and desktop devices
-- Product category browsing and filtering
-- Shopping cart with live item counter
-- Smooth navigation experience
-
-## 📂 Product Categories
-- Dresses
-- Tops
-- Bags
-- Shoes
-- Accessories
-
-## 🛒 Shopping Cart System
-- Real-time cart badge updates
-- Dynamic product selection interface
-- Fast and lightweight user interaction
-
-## 📊 Admin Dashboard
-- Total Products Analytics
-- Customer Order Tracking
-- Revenue Calculation (RWF)
-- Order Status Management
-- Live Database Metrics
-
-## 🗄️ Database System
-- Structured MySQL relational database
-- Dynamic order management flow
-- Timestamp-based customer order records
-- Secure backend integration using PHP
+| Information | Details |
+|---|---|
+| **Course** | Web Development Project (EWA408510) |
+| **Institution** | University of Lay Adventists of Kigali (UNILAK) |
+| **Academic Year** | 2026 |
 
 ---
 
-# 📸 Screenshots
+# ✨ Features
+
+## 🛍️ Customer Features
+
+- Responsive fashion storefront
+- Product category filtering
+- Shopping cart interface
+- Mobile-friendly layout
+- Smooth user navigation
+- Interactive product cards
+
+---
+
+## 📊 Admin Dashboard Features
+
+- Total products overview
+- Customer order management
+- Revenue analytics (RWF)
+- Order status tracking
+- Database-driven metrics
+
+---
+
+## 🗄️ Backend Features
+
+- PHP server-side processing
+- MySQL relational database
+- Dynamic order flow management
+- PDO database integration
+- Structured database relationships
+
+---
+
+# 🖥️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page Structure |
+| CSS3 | Styling & Responsive Design |
+| JavaScript | Interactive Features |
+| PHP | Backend Development |
+| MySQL | Database Management |
+| Google Fonts (Poppins) | Typography |
+| XAMPP | Local Development Environment |
+| VS Code | Code Editor |
+
+---
+
+# 📸 Project Screenshots
 
 ## 🏠 Home Page
-![Home Page](images/home-page-prjt.jpg)
 
-## 🛍️ Product Collection
-![Product Collection](images/product-prjt.jpg)
-
-## 📂 Shop by Category
-![Categories](images/categories-prjt.png)
-
-## 👗 About Us Showcase
-![About Section](images/about-prjt.jpg)
-
-## 📊 Admin Panel Metrics
-![Admin Dashboard](images/admin-prjt.png)
-
-## 📞 Contact Footer Information
-![Contact Footer](images/contact-prjt.png)
+<img src="images/home-page-prjt.jpg" width="100%">
 
 ---
 
-# 🛠️ Challenges Encountered
+## 🛍️ Product Collection
 
-### 1. Asset Path Configuration
-Initially, images failed to load because absolute system paths such as:
+<img src="images/product-prjt.jpg" width="100%">
+
+---
+
+## 📂 Shop By Category
+
+<img src="images/categories-prjt.png" width="100%">
+
+---
+
+## 👗 About Us Section
+
+<img src="images/about-prjt.jpg" width="100%">
+
+---
+
+## 📊 Admin Dashboard
+
+<img src="images/admin-prjt.png" width="100%">
+
+---
+
+## 📞 Contact Footer
+
+<img src="images/contact-prjt.png" width="100%">
+
+---
+
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone The Repository
 
 ```bash
-C:\Users\...
+git clone https://github.com/yourusername/angelrose-fashion-store.git
 ````
 
-were used. This issue was resolved by restructuring all project assets into a localized `images/` directory and using relative file paths.
+---
 
-### 2. Shopping Cart Logic
+## 2️⃣ Move Project To XAMPP
 
-Maintaining cart updates without page reloads required reorganizing UI interactions and integrating lightweight dynamic updates.
+Copy the project folder into:
 
-### 3. Database Relationships
+```bash
+C:\xampp\htdocs\
+```
 
-Synchronizing pricing data, order records, and revenue calculations required careful relational database structuring to avoid slow query performance.
+---
+
+## 3️⃣ Start Apache & MySQL
+
+Open **XAMPP Control Panel** and start:
+
+* Apache
+* MySQL
+
+---
+
+## 4️⃣ Import Database
+
+1. Open phpMyAdmin
+2. Create a new database
+3. Import the SQL file
+
+---
+
+## 5️⃣ Run The Project
+
+Open browser:
+
+```bash
+http://localhost/angelrose-fashion-store
+```
+
+---
+
+# 🛠️ Challenges Faced
+
+## 📌 Asset Path Issues
+
+Initially, images failed to display because absolute Windows file paths were used.
+
+This was fixed by moving all assets into a dedicated `images/` directory and using relative paths.
+
+---
+
+## 📌 Cart Interaction Logic
+
+Creating real-time shopping cart updates without page refreshes required restructuring JavaScript interactions.
+
+---
+
+## 📌 Database Relationships
+
+Managing customer orders, prices, and revenue analytics required proper relational database normalization.
 
 ---
 
 # 📚 Lessons Learned
 
-* Improved understanding of responsive web design principles
-* Learned the importance of proper file naming conventions
-* Gained experience using PHP with MySQL databases
-* Understood secure database interaction using PDO
-* Enhanced UI/UX consistency using structured CSS layouts
+* Responsive web design principles
+* Importance of organized project structure
+* PHP & MySQL integration
+* Secure database communication using PDO
+* UI/UX consistency and clean layouts
+* Asset management best practices
 
 ---
 
 # 🚀 Future Improvements
 
 * Online payment integration
-* Customer authentication system
+* User authentication system
 * Product search functionality
-* Wishlist and favorites feature
-* Email order notifications
-* Deployment to a live hosting server
+* Wishlist feature
+* Email notifications
+* Live deployment hosting
+
+---
+
+# 📂 Project Structure
+
+```bash
+angelrose-fashion-store/
+│
+├── admin/
+├── database/
+├── images/
+├── css/
+├── js/
+├── index.php
+├── shop.php
+├── cart.php
+├── README.md
+└── database.sql
+```
 
 ---
 
 # 🔗 Project Links
 
-* **Live Website:** https://your-live-demo-link.com
-* **GitHub Repository:** https://github.com/yourusername/angelrose-fashion-store
+| Resource          | Link                                                    |
+| ----------------- | ------------------------------------------------------- |
+| Live Website      | https://your-live-demo-link.com                         |
+| GitHub Repository | https://github.com/yourusername/angelrose-fashion-store |
 
 ---
 
 # 📄 Conclusion
 
-The **AngelRose Fashion Store & Admin Analytics Dashboard** project demonstrates practical skills in frontend development, backend integration, database management, and responsive UI/UX design. The system provides a complete fashion e-commerce experience while offering administrators powerful tools for monitoring products, orders, customers, and revenue analytics.
+The **AngelRose Fashion Store** project demonstrates practical skills in:
 
-```
+* Frontend Development
+* Backend Development
+* Database Management
+* Responsive UI/UX Design
+* E-Commerce System Development
+
+The platform delivers a complete online fashion shopping experience alongside a powerful admin management dashboard.
+
+---
+
+<div align="center">
+
+### 🌸 AngelRose Boutique — Fashion With Elegance
+
+</div>
 ```
