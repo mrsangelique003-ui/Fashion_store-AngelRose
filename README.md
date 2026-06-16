@@ -1,74 +1,144 @@
+````markdown
 # 🌸 AngelRose E-Commerce Fashion Store
 
-An elegant, modern e-commerce storefront and admin order management system designed for **AngelRose**, an boutique fashion brand serving women in Rwanda and beyond.
+An elegant and modern e-commerce storefront with an integrated admin analytics dashboard designed for **AngelRose**, a boutique fashion brand serving women in Rwanda and beyond.
 
 ---
 
-## 👤 Student Information
-* **Course Assignment:** Web Development Project (EWA408510)
-* **Institution:** University of Lay Adventists of Kigali (UNILAK)
-* **Academic Year:** 2026
+# 👤 Student Information
+
+- **Course Assignment:** Web Development Project (EWA408510)
+- **Institution:** University of Lay Adventists of Kigali (UNILAK)
+- **Academic Year:** 2026
 
 ---
 
-## 📌 Project Title
-**AngelRose Fashion Store & Admin Analytics Dashboard**
+# 📌 Project Title
+
+## AngelRose Fashion Store & Admin Analytics Dashboard
 
 ---
 
-## 💻 Platform Used
-* **Frontend:** HTML5, CSS3 (Modular Layouts), Google Fonts (Poppins)
-* **Backend:** PHP Server-Side Scripting
-* **Database:** MySQL (Structured Relational Database)
-* **Development Environment:** Localhost (XAMPP / VS Code Live Server)
+# 💻 Platform Used
+
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** PHP Server-Side Scripting
+- **Database:** MySQL Relational Database
+- **Design:** Responsive Modular Layouts with Google Fonts (Poppins)
+- **Development Environment:** XAMPP & VS Code Live Server
 
 ---
 
-## ✨ Features Implemented
-* **Responsive Storefront:** A fluid layout tailored beautifully across mobile and desktop viewpoints.
-* **Category Filtering System:** Instant customer navigation across curated lines (Dresses, Tops, Bags, Shoes, Accessories).
-* **Interactive Shopping Cart:** Real-time badge updating reflecting item additions directly on the UI.
-* **Admin Dashboard Overview:** Centralized metrics center computing *Total Products*, *Total Orders*, *Customer Metrics*, and *Total Revenue (RWF)*.
-* **Dynamic Database Order Flow:** Unified relational tracking showing incoming custom customer rows with live timestamps and processing statuses.
+# ✨ Features Implemented
+
+## 🛍️ Customer Storefront
+- Fully responsive fashion storefront
+- Beautiful modern UI for mobile and desktop devices
+- Product category browsing and filtering
+- Shopping cart with live item counter
+- Smooth navigation experience
+
+## 📂 Product Categories
+- Dresses
+- Tops
+- Bags
+- Shoes
+- Accessories
+
+## 🛒 Shopping Cart System
+- Real-time cart badge updates
+- Dynamic product selection interface
+- Fast and lightweight user interaction
+
+## 📊 Admin Dashboard
+- Total Products Analytics
+- Customer Order Tracking
+- Revenue Calculation (RWF)
+- Order Status Management
+- Live Database Metrics
+
+## 🗄️ Database System
+- Structured MySQL relational database
+- Dynamic order management flow
+- Timestamp-based customer order records
+- Secure backend integration using PHP
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### Home Page
-![Home page prjt.jpg](Home page prjt.jpg)
+## 🏠 Home Page
+![Home Page](images/home-page-prjt.jpg)
 
-### Product Collection
-[images/product prjt.jpg](product prjt)
+## 🛍️ Product Collection
+![Product Collection](images/product-prjt.jpg)
 
-### Shop by Category
-![Categories prjt.png](Categories prjt.png)
+## 📂 Shop by Category
+![Categories](images/categories-prjt.png)
 
-### About Us Showcase
-![About prjt.jpg](About prjt.jpg)
+## 👗 About Us Showcase
+![About Section](images/about-prjt.jpg)
 
-### Admin Panel Metrics
-![Admin prjt.png](Admin prjt.png)
+## 📊 Admin Panel Metrics
+![Admin Dashboard](images/admin-prjt.png)
 
-### Contact Footer Information
-![Contact prjt.png](Contact prjt.png)
-
----
-
-## 🛠️ Challenges
-1. **Absolute vs. Relative Asset Mapping:** Encountered broken image dependencies initially when pulling photos from explicit system paths (`C:\Users\...`). Resolved this by refactoring assets into localized folder paths relative to the project root.
-2. **Stateless UI Cart Adjustments:** Keeping track of items while maintaining a lightning-fast experience required shifting layout variables into custom inline parameters before processing data directly to backend files.
-3. **Database Relationships:** Syncing individual pricing lines dynamically to generate final metrics (like total computed revenue) without causing slow server query loads.
+## 📞 Contact Footer Information
+![Contact Footer](images/contact-prjt.png)
 
 ---
 
-## 📚 Lessons Learned
-* **Asset Cleanliness:** Understood the weight of file naming conventions—removing spaces and complex syntax patterns from web graphics guarantees trouble-free loading on remote hosts.
-* **Database Normalization & Security:** Gained functional knowledge using PHP Data Objects (PDO) to interface with MySQL rather than vulnerable legacy approaches.
-* **UI/UX Consistency:** Learned how replacing inconsistent raw system emojis with standardized CSS layouts and scalable vector elements instantly elevates a project into a trustworthy, professional enterprise app.
+# 🛠️ Challenges Encountered
+
+### 1. Asset Path Configuration
+Initially, images failed to load because absolute system paths such as:
+
+```bash
+C:\Users\...
+````
+
+were used. This issue was resolved by restructuring all project assets into a localized `images/` directory and using relative file paths.
+
+### 2. Shopping Cart Logic
+
+Maintaining cart updates without page reloads required reorganizing UI interactions and integrating lightweight dynamic updates.
+
+### 3. Database Relationships
+
+Synchronizing pricing data, order records, and revenue calculations required careful relational database structuring to avoid slow query performance.
 
 ---
 
-## 🔗 Project Links
-* **Live Website:** [Click Here to View Live Demopage](https://github.com/) *(Update with your production deployment URL)*
-* **GitHub Repository:** [Click Here to View Source Code](https://github.com/) *(Update with your direct repository link)*
+# 📚 Lessons Learned
+
+* Improved understanding of responsive web design principles
+* Learned the importance of proper file naming conventions
+* Gained experience using PHP with MySQL databases
+* Understood secure database interaction using PDO
+* Enhanced UI/UX consistency using structured CSS layouts
+
+---
+
+# 🚀 Future Improvements
+
+* Online payment integration
+* Customer authentication system
+* Product search functionality
+* Wishlist and favorites feature
+* Email order notifications
+* Deployment to a live hosting server
+
+---
+
+# 🔗 Project Links
+
+* **Live Website:** https://your-live-demo-link.com
+* **GitHub Repository:** https://github.com/yourusername/angelrose-fashion-store
+
+---
+
+# 📄 Conclusion
+
+The **AngelRose Fashion Store & Admin Analytics Dashboard** project demonstrates practical skills in frontend development, backend integration, database management, and responsive UI/UX design. The system provides a complete fashion e-commerce experience while offering administrators powerful tools for monitoring products, orders, customers, and revenue analytics.
+
+```
+```
