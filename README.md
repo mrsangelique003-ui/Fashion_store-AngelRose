@@ -25,7 +25,7 @@ The platform allows customers to browse fashion products, filter categories, and
 
 | Information | Details |
 |---|---|
-| **Course** | Web Development Project (EWA408510) |
+| **Course** | E-commerce and Web Application(EWA408510) |
 | **Institution** | University of Lay Adventists of Kigali (UNILAK) |
 | **Academic Year** | 2026 |
 
